@@ -1,0 +1,56 @@
+
+1.
+
+num = int(input('enter a number and print by this number'))
+i = 0
+while num > i:
+    i = i + 1
+    print(i)
+    
+2.
+
+num = int(input('enter a number and sum all the number by this number'))
+i = 0
+soma = 0
+while num > i:
+    i = i + 1
+    soma = soma + i
+print('the sum from one to', num , 'is' , soma )
+
+3.
+
+num = int(input('enter a number and print its factorial'))
+i = 0
+factorial = 1
+while num > i:
+    i = i + 1
+    factorial = factorial*i
+print('the factorial of' , num , 'is' , factorial)
+
+4.
+
+Print the multiplication table of 9
+
+i = 0
+while i < 10:
+    i = i + 1
+    print(9*i)
+
+5.
+
+num = int(input('enter a number to show all its divisors'))
+div = 1
+while div <= num:
+    if num%div == 0:
+        print(div , 'is divisor of:', num)
+    div = div + 1
+
+
+
+
+
+
+
+
+    
+    
