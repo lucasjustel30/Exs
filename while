@@ -45,12 +45,40 @@ while div <= num:
         print(div , 'is divisor of:', num)
     div = div + 1
 
+6.
+
+num = int(input('enter numbers to sum and press 0 to stop'))
+sum = 0
+while num != 0: 
+    sum = sum + num
+    num = int(input('enter numbers to sum and press 0 to stop'))
+print('the sum is:' , sum )
+
+7.
+
+from random import randint
+random = randint(1,10)
+num = int(input('thy to discover the number between 1-10'))
+while random!=num :
+    print('wrong answer')
+    num = int(input('thy again to discover the number between 1-10'))
+print( random , 'is the correct number')
+
+8.
+
+age = int(input('enter the age'))
+while age < 0 or age > 150:
+    print('invalid')
+    age = int(input('enter the age'))
+wage = int(input('enter the wage'))
+while wage <= 0:
+    print('invalid')
+    wage = int(input('enter the wage again'))
+sex = input('enter the sex M/F')
+while not (sex == 'M' or sex =='F'):
+    print('invalid')
+    sex = input('enter the sex again')
+print('the age is' , age , 'wage is' , wage , 'sex is' , sex)
 
 
 
-
-
-
-
-    
-    
