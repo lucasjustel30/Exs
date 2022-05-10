@@ -1,0 +1,17 @@
+
+1.
+Create a list and print each element using for
+
+list = ['Germany' , 'Italy' , 'France', 'England' , 'Spain']
+for element in list:
+    print(element)
+
+2.
+Make a program and print each element using while
+
+
+
+
+
+
+
