@@ -38,17 +38,60 @@ for elemento in lista:
     par += 1
 
 5.
+Make a program that print max without using max()
+
+list = [1,-2,3,-4,5,-6]
+higher = list[0]
+for element in list:
+  if element > higher:
+    higher = element
+print('the higher number is' , higher)
 
 
+6.
+Print the 3 highest numbers in a list using max()
 
+list = [1,-2,3,-4,5,-6]
+for i in range(3):
+  higher = max(list)
+  print(higher)
+  list.remove(higher)
 
+7.
+Add two matrices
 
+import numpy as np
+list_1 = np.array([1,2,3])
+list_2 = np.array([4,5,6])
+matrice = np.add(list_1,list_2)
+print(matrice)
 
+or
 
+list1 = [1,2,3]
+list2 = [4,5,6]
+list3 = []
+if len(list1) != len(list2):
+  print('lists have different lenghts')
+else:
+  for i in range(len(list1)):
+    value = list1[i] + list2[i] 
+    list3.append(value)
+  print(list3)
 
+8.
+Multiply two matrices
 
-
-
+list1 = [1,2,3]
+list2 = [4,5,6]
+list3 = []
+if len(list1) != len(list2):
+  print('lists have different lenghts')
+else:
+  for i in range(len(list1)):
+    value = list1[i]*list2[i] 
+    list3.append(value)
+  print(list3)
 
 
 
