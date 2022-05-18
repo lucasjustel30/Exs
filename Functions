@@ -1,1 +1,36 @@
 
+1.
+Enter a number and return its double, triple and root square
+
+n = int(input('Enter a number to calculate the double, triple and root square'))
+d = n * 2
+t = n * 3
+r = n ** (1/2)
+print('the double of {} is {}'.format(n,d))
+print('the triple is {} is {}'.format(n,t))
+print('the root square {} is {:.2f} ' .format(n,r))
+
+2.
+Enter two number and calculate the sum, subtration, division and multiplication
+
+n1 = int(input('enter the number 1'))
+n2 = int(input('enter the number 2'))
+def sum(n1,n2):
+  return n1 + n2
+r = sum(n1,n2)
+print('the sum is' , r)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
