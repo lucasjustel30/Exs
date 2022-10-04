@@ -1,0 +1,86 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNyEUToIi2nvF0TWs+MQajv",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lucasjustel30/Phyton/blob/main/Data%20Science\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Print the list and each element. Teams = Nurnberg, Borussia and Bayern.\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "Qkx2jAEE6zRe"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4iSneDynrRD3",
+        "outputId": "ee3c9ca1-611f-480d-a09c-6cc96d0ee2a3"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " The content of the list is: ['Nurnberg', 'Borussia', 'Bayern']\n"
+          ]
+        }
+      ],
+      "source": [
+        "teams = ['Nurnberg' , 'Borussia' , 'Bayern']\n",
+        "print(f' The content of the list is: {teams}')\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "teams = ['Nurnberg' , 'Borussia' , 'Bayern']\n",
+        "\n",
+        "print(f' The fu: {teams[0]}')\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "21OFBzif7nUI"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
