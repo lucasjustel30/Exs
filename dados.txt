@@ -1,0 +1,4 @@
+id, nome, mensagem
+1, Diego, Olá pessoas
+2, José, Biscoito recheado é bom
+3, Maria, "A vingança nunca é pela, mata alma e envenena"
