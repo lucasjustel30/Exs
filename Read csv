@@ -1,0 +1,19 @@
+
+
+#Read a csv in phyton:
+
+import csv
+
+with open('banco' , 'r') as entrance:
+    read = csv.reader(entrance)
+    for line in read:
+        print(line)
+
+
+
+
+
+
+
+
+
